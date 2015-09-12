@@ -21,7 +21,7 @@ def calculate(left_number, sign, right_number):
 
 
 while True:
-    number=int(raw_input("Enter a number"))
-    num=int(raw_input("Enter a second number"))
-    sig=raw_input("Enter the sign")
+    number=int(raw_input("Enter  number"))
+    num=int(raw_input("Enter  second number"))
+    sig=raw_input("Enter  sign")
     print calculate(number,sig,num)
