@@ -8,7 +8,6 @@
 def calculate(left_number, sign, right_number):
     if sign == "+":
         result = left_number + right_number
-
     elif sign == "/":
         result = left_number / right_number
     elif sign == "-":
@@ -21,7 +20,7 @@ def calculate(left_number, sign, right_number):
 
 
 while True:
-    number=int(raw_input("Enter  number"))
-    num=int(raw_input("Enter  second number"))
-    sig=raw_input("Enter  sign")
-    print calculate(number,sig,num)
+    number = int(raw_input("Enter number"))
+    num = int(raw_input("Enter second number"))
+    sig = raw_input("Enter sign")
+    print calculate(number, sig, num)
